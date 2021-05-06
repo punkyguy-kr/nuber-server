@@ -1,0 +1,15 @@
+{
+  "name": "nuber-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/punkyguy-kr/nuber-server.git",
+  "author": "Cat Johan <punkyguy_kr@naver.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^15.0.2",
+    "nodemon": "^2.0.7",
+    "ts-node": "^9.1.1",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^4.2.4"
+  }
+}

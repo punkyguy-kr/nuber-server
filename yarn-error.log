@@ -1,0 +1,43 @@
+Arguments: 
+  E:\Program Files\nodejs\node.exe C:\Users\John\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add typescript ts-node tslint-config-prettier nodemon @type/node --dev
+
+PATH: 
+  C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;E:\Program Files\Java\jdk-11.0.10\bin;E:\Gradle\gradle-6.5\bin;E:\Program Files\nodejs\;E:\Program Files (x86)\QuickTime\QTSystem\;E:\Program Files\Git\cmd;C:\Users\John\AppData\Local\Microsoft\WindowsApps;E:\Program Files\Microsoft VS Code\bin;E:\Program Files\JetBrains\IntelliJ IDEA 2019.1.1\bin;C:\Users\John\AppData\Roaming\npm;C:\Users\John\AppData\Local\Microsoft\WindowsApps;
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  10.15.3
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@type%2fnode: Not found
+      at Request.params.callback [as _callback] (C:\Users\John\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:66988:18)
+      at Request.self.callback (C:\Users\John\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:140662:22)
+      at Request.emit (events.js:189:13)
+      at Request.<anonymous> (C:\Users\John\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141634:10)
+      at Request.emit (events.js:189:13)
+      at IncomingMessage.<anonymous> (C:\Users\John\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141556:12)
+      at Object.onceWrapper (events.js:277:13)
+      at IncomingMessage.emit (events.js:194:15)
+      at endReadableNT (_stream_readable.js:1125:12)
+      at process._tickCallback (internal/process/next_tick.js:63:19)
+
+npm manifest: 
+  {
+    "name": "nuber-server",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "https://github.com/punkyguy-kr/nuber-server.git",
+    "author": "Cat Johan <punkyguy_kr@naver.com>",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
